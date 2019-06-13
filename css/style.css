@@ -176,6 +176,7 @@
     .intro .profile .box #myprofile .slant {
         top: 0;
         z-index: 1;
+        margin-left: -1px;
         position: absolute;
         border-style: solid;
         border-width: 400px 0 0 100px;
@@ -239,7 +240,12 @@
         font-weight: 400;
         line-height: 20px;
         color: #fff;
-        margin-right: 80px;
+        margin-right: 10px;
+        text-align: left;
+    }
+
+    .intro .profile .box .profile-list .content a {
+        color: #ffffff;
     }
 
     .intro .profile .box .profile-list {
@@ -304,7 +310,7 @@
         }
 
         .intro .profile .box .info-headings {
-            padding: 60px;
+            padding: 25px;
             padding-top: 80px;
         }
     }

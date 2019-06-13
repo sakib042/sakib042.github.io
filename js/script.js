@@ -58,11 +58,11 @@ $(document).ready(function () {
     // init Isotope    
     var $container = $('.isotope');
 
-    $container.imagesLoaded(function () {
-        $('.isotope').isotope({
-            itemSelector: '.item'
-        });
-    });
+    // $container.imagesLoaded(function () {
+    //     $('.isotope').isotope({
+    //         itemSelector: '.item'
+    //     });
+    // });
 
     // filter items on click
     $('#filters').on('click', '.type', function () {
