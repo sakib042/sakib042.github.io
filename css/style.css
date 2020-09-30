@@ -301,7 +301,7 @@
     }
 
     .page-nav-wrapper .page-nav li {
-        margin-right: 30px;
+        margin: 0 15px;
         display: inline-block;
         background: none;
     }
@@ -337,10 +337,6 @@
     }
 
     /*education & experience*/
-
-    .body {
-        /* background: #00BCD4; */
-    }
 
     .wrapper {
         padding-top: 60px;
@@ -1010,6 +1006,10 @@
 
         #portfolio-section .portfolio-body #filter-list {
             margin-bottom: 10px;
+        }
+
+        .page-nav-wrapper .page-nav li {
+            margin: 4px;
         }
     }
 
