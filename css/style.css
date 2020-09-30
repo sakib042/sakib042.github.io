@@ -7,6 +7,11 @@
         background-color: #FFFFFF;
     }
 
+    ul, ul li{
+        margin: 0;
+        padding: 0;
+    }
+
     /* Header section */
 
     .header {
@@ -256,116 +261,6 @@
         padding: 0;
     }
 
-    @media screen and (max-width:767px) {
-        .intro .profile .box {
-            position: relative;
-            width: 100%;
-            overflow: visible;
-            z-index: 1;
-        }
-
-        .intro .profile .box #myprofile {
-            position: absolute;
-            bottom: 85%;
-            left: 0;
-            width: 150px;
-            height: auto;
-            margin-right: auto;
-            margin-left: auto;
-            z-index: 1;
-            background-color: transparent;
-        }
-
-        .intro .profile .box #myprofile img {
-            width: 150px;
-            height: 150px;
-            padding: 10px;
-            margin-left: 95px;
-            margin-bottom: -15px;
-            border-radius: 50%;
-            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-        }
-
-        .intro .profile .box #myprofile .slant {
-            display: none;
-            opacity: 0;
-            overflow: hidden;
-        }
-
-        .intro .profile .box .info-headings {
-            display: table;
-            margin: 0 auto;
-            max-width: 100%;
-            padding: 0;
-        }
-
-        .intro .profile .box .info-headings {
-            max-width: 100%;
-            text-align: center;
-            margin-top: 38px;
-        }
-
-        .intro .profile .box .info-headings h6 {
-            margin-bottom: 20px;
-        }
-
-        .intro .profile .box .info-headings {
-            padding: 25px;
-            padding-top: 80px;
-        }
-    }
-
-    @media (max-width: 767px) {
-        .header .social {
-            margin: 0 auto;
-            text-align: center;
-        }
-
-        .header .actions {
-            position: static;
-            margin: 0 auto;
-            margin-bottom: 30px;
-            text-align: center;
-        }
-
-        .header .actions .btn {
-            margin-bottom: 15px;
-            font-size: 12px;
-            display: inline-block;
-            width: 100%;
-        }
-
-        .header .actions .btn:last-child {
-            margin-bottom: 0;
-        }
-
-        .header .name {
-            font-size: 36px;
-        }
-
-        .header .title {
-            font-size: 22px;
-        }
-
-        .header .contact-info li {
-            margin-bottom: 5px;
-            font-size: 14px;
-            width: 100%;
-        }
-
-        .header .contact-info li:last-child {
-            margin-bottom: 0;
-        }
-
-        .section {
-            padding: 30px;
-        }
-
-        .section-title {
-            font-size: 20px;
-        }
-    }
-
     /* Page Nav */
 
     .page-nav-space-holder {
@@ -456,7 +351,7 @@
         -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
         -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
         box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
-        padding: 45px;
+        padding: 30px;
         background: #fff;
         margin-bottom: 45px;
         -webkit-border-radius: 2px;
@@ -610,67 +505,7 @@
         color: inherit;
     }
 
-    @media screen and (max-width:768px) {
-        .timeline-block .timeline-content:before {
-            display: none;
-        }
-    }
-
-    @media only screen and (min-width:768px) {
-        #timeline-education::before {
-            left: 50%;
-            margin-left: -2px;
-            height: 77.1%;
-            opacity: 0.4;
-            background: #10A2BA;
-        }
-
-        #timeline-experience::before {
-            left: 50%;
-            margin-left: -2px;
-            height: 78.1%;
-            opacity: 0.4;
-            background: #10A2BA;
-        }
-
-        .timeline-block {
-            margin: -5em 0;
-        }
-
-        .timeline-block .card {
-            margin: 0;
-        }
-
-        .timeline-block .timeline-dot {
-            width: 50px;
-            height: 50px;
-            left: 50%;
-            top: 0;
-            z-index: 2;
-            margin-left: -24px;
-            -webkit-transform: translateZ(0);
-            -webkit-backface-visibility: hidden;
-        }
-
-        .timeline-block .timeline-content {
-            width: 44%;
-        }
-
-        .timeline-block .timeline-content .timeline-title {
-            max-width: 100%;
-        }
-
-        .timeline-block:nth-child(even) .timeline-content {
-            float: right;
-        }
-
-        .timeline-block:nth-child(even) .timeline-content::before {
-            top: 25px;
-            left: auto;
-            right: 101.2%;
-            z-index: -2;
-        }
-    }
+    
 
     /*education*/
 
@@ -680,7 +515,7 @@
         border-top-right-radius: 2px;
         position: relative;
         padding: 0 30px;
-        margin-left: 280px;
+        margin-left: 200px;
     }
 
     .timeline .item {
@@ -756,7 +591,7 @@
 
     .timeline .job-meta {
         position: absolute;
-        left: -230px;
+        left: -175px;
         top: 0;
     }
 
@@ -773,21 +608,7 @@
         color: #666;
     }
 
-    @media screen and (max-width:767px) {
-        #education-section .timeline {
-            margin-left: 0;
-            padding-right: 0;
-        }
-
-        #education-section .timeline .place {
-            margin-bottom: 5px;
-        }
-
-        #education-section .timeline .job-meta {
-            position: static;
-            margin-bottom: 15px;
-        }
-    }
+    
 
     /*skill*/
 
@@ -850,13 +671,13 @@
     #portfolio-section .portfolio-body #filter-list {
         list-style: none;
         margin: 0 auto;
-        margin-bottom: 60px;
+        margin-bottom: 30px;
         text-align: center;
         border-bottom: 1px solid #e8e8e8;
     }
 
     #portfolio-section .portfolio-body #filter-list .type {
-        margin-right: 30px;
+        margin: 0 15px;
         list-style: none;
         display: inline-block;
         padding: 8px 15px;
@@ -1055,4 +876,197 @@
     .back-to-up:hover {
         color: #00BCD4;
         cursor: pointer;
+    }
+
+
+    /*responsive  */
+
+    @media screen and (max-width:767px) {
+        .intro .profile .box {
+            position: relative;
+            width: 100%;
+            overflow: visible;
+            z-index: 1;
+        }
+        .intro .profile .box #myprofile {
+            position: absolute;
+            bottom: 85%;
+            left: 0;
+            width: 150px;
+            height: auto;
+            margin-right: auto;
+            margin-left: auto;
+            z-index: 1;
+            background-color: transparent;
+        }
+
+        .intro .profile .box #myprofile img {
+            width: 150px;
+            height: 150px;
+            padding: 10px;
+            margin-left: 95px;
+            margin-bottom: -15px;
+            border-radius: 50%;
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+        }
+
+        .intro .profile .box #myprofile .slant {
+            display: none;
+            opacity: 0;
+            overflow: hidden;
+        }
+
+        .intro .profile .box .info-headings {
+            display: table;
+            margin: 0 auto;
+            max-width: 100%;
+            padding: 0;
+        }
+
+        .intro .profile .box .info-headings {
+            max-width: 100%;
+            text-align: center;
+            margin-top: 38px;
+        }
+
+        .intro .profile .box .info-headings h6 {
+            margin-bottom: 20px;
+        }
+
+        .intro .profile .box .info-headings {
+            padding: 25px;
+            padding-top: 80px;
+        }
+        #portfolio-section .portfolio-body #filter-list .type {
+            margin: 0;
+            display: block;
+        }
+    
+        .header .social {
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .header .actions {
+            position: static;
+            margin: 0 auto;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .header .actions .btn {
+            margin-bottom: 15px;
+            font-size: 12px;
+            display: inline-block;
+            width: 100%;
+        }
+
+        .header .actions .btn:last-child {
+            margin-bottom: 0;
+        }
+
+        .header .name {
+            font-size: 36px;
+        }
+
+        .header .title {
+            font-size: 22px;
+        }
+
+        .header .contact-info li {
+            margin-bottom: 5px;
+            font-size: 14px;
+            width: 100%;
+        }
+
+        .header .contact-info li:last-child {
+            margin-bottom: 0;
+        }
+
+        .section {
+            padding: 10px;
+        }
+
+        .section-title {
+            font-size: 20px;
+        }
+        #education-section .timeline {
+            margin-left: 0;
+            padding-right: 0;
+        }
+
+        #education-section .timeline .place {
+            margin-bottom: 5px;
+        }
+
+        #education-section .timeline .job-meta {
+            position: static;
+            margin-bottom: 15px;
+        }
+        section#experiences-section,
+        section#education-section{
+            padding: 10px 25px;
+        }
+    }
+
+    @media screen and (max-width:768px) {
+        .timeline-block .timeline-content:before {
+            display: none;
+        }
+    }
+
+    @media only screen and (min-width:768px) {
+        #timeline-education::before {
+            left: 50%;
+            margin-left: -2px;
+            height: 77.1%;
+            opacity: 0.4;
+            background: #10A2BA;
+        }
+
+        #timeline-experience::before {
+            left: 50%;
+            margin-left: -2px;
+            height: 78.1%;
+            opacity: 0.4;
+            background: #10A2BA;
+        }
+
+        .timeline-block {
+            margin: -5em 0;
+        }
+
+        .timeline-block .card {
+            margin: 0;
+        }
+
+        .timeline-block .timeline-dot {
+            width: 50px;
+            height: 50px;
+            left: 50%;
+            top: 0;
+            z-index: 2;
+            margin-left: -24px;
+            -webkit-transform: translateZ(0);
+            -webkit-backface-visibility: hidden;
+        }
+
+        .timeline-block .timeline-content {
+            width: 44%;
+        }
+
+        .timeline-block .timeline-content .timeline-title {
+            max-width: 100%;
+        }
+
+        .timeline-block:nth-child(even) .timeline-content {
+            float: right;
+        }
+
+        .timeline-block:nth-child(even) .timeline-content::before {
+            top: 25px;
+            left: auto;
+            right: 101.2%;
+            z-index: -2;
+        }
     }
