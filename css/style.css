@@ -984,7 +984,7 @@
         }
 
         .section {
-            padding: 15px 0;
+            padding: 15px 0 0 0;
         }
 
         .section-title {
@@ -1005,7 +1005,11 @@
         }
         section#experiences-section,
         section#education-section{
-            padding: 10px 25px;
+            padding: 10px 25px 25px 25px;
+        }
+
+        #portfolio-section .portfolio-body #filter-list {
+            margin-bottom: 10px;
         }
     }
 
